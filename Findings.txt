@@ -1,2 +1,4 @@
 Utilizing the training data, we were able to narrow down the relevant variables pertaining to sales as 'dayOfTheYear','EBT Site',
-       'Alcohol', 'Carwash','3HourBucket','City'. We did this by comparing which variables were the same across all stores, allowing us to reduce the dimensionality of our data. We then converted all the boolean values into 1s and 0s and utilized a RandomForestRegressor model to predict sales using a 80 to 20 training test data split. We achieved an accuracy of 95% overall by doing this. 
+       'Alcohol', 'Carwash','3HourBucket','City'. We did this by comparing which variables were the same across all stores, 
+       allowing us to reduce the dimensionality of our data. We then converted all the boolean values into 1s and 0s and 
+       tested multiple models. We ultimately utilized a RandomForestRegressor model to predict sales using a 80 to 20 training test data split. We achieved an accuracy of 95% overall by doing this. 
